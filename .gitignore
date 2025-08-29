@@ -1,0 +1,38 @@
+# Ignore all hidden files and directories
+.*
+!.gitignore
+
+# OS / system files
+.DS_Store
+Thumbs.db
+
+# User config / history
+.bash_history
+.bash_profile
+.bashrc
+.lesshst
+
+# Caches and logs
+.cache/
+.config/
+.ipython/
+.jupyter/
+.local/
+.npm/
+.nv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+*.ipynb_checkpoints
+
+# VSCode / IDEs
+.vscode/
+.idea/
+*.swp
+
+# NVIDIA Nsight reports/logs (if not needed)
+Documents/NVIDIA Nsight Compute/
