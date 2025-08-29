@@ -1,0 +1,13 @@
+{
+  "shell_port": 37281,
+  "iopub_port": 46673,
+  "stdin_port": 48489,
+  "control_port": 50779,
+  "hb_port": 52123,
+  "ip": "127.0.0.1",
+  "key": "07a7fad6-2b126e963faa75669e36f58a",
+  "transport": "tcp",
+  "signature_scheme": "hmac-sha256",
+  "kernel_name": "python3",
+  "jupyter_session": "/p/home/jusers/marxen1/jusuf/Part 3 Exercise 5/Batch_MatMul_Exercise.ipynb"
+}

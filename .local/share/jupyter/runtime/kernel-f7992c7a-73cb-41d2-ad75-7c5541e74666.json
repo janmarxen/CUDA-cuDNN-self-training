@@ -1,0 +1,13 @@
+{
+  "shell_port": 33841,
+  "iopub_port": 46853,
+  "stdin_port": 48175,
+  "control_port": 34083,
+  "hb_port": 46847,
+  "ip": "127.0.0.1",
+  "key": "e071797c-648e95ed8571013a45f3aab7",
+  "transport": "tcp",
+  "signature_scheme": "hmac-sha256",
+  "kernel_name": "bash",
+  "jupyter_session": "/p/home/jusers/marxen1/jusuf/Part 3 Exercise 4/Console 1"
+}

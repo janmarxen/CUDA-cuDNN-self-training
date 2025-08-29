@@ -1,0 +1,25 @@
+==123010== NVPROF is profiling process 123010, command: ./single_mat_mul_profiling 32
+==123010== Profiling application: ./single_mat_mul_profiling 32
+==123010== Warning: 1 records have invalid timestamps due to insufficient device buffer space. You can configure the buffer space using the option --device-buffer-size.
+==123010== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   64.63%  101.03ms         3  33.677ms     100ns  101.03ms  cudaMalloc
+                   34.70%  54.251ms         1  54.251ms  54.251ms  54.251ms  cudaDeviceSynchronize
+                    0.48%  750.48us         1  750.48us  750.48us  750.48us  cudaLaunchKernel
+                    0.14%  215.34us       114  1.8880us      80ns  91.500us  cuDeviceGetAttribute
+                    0.01%  21.400us         2  10.700us     550ns  20.850us  cudaEventCreate
+                    0.01%  19.360us         1  19.360us  19.360us  19.360us  cuDeviceGetName
+                    0.01%  16.440us         2  8.2200us  1.0900us  15.350us  cudaEventRecord
+                    0.01%  12.621us         1  12.621us  12.621us  12.621us  cuDeviceGetPCIBusId
+                    0.00%  3.2600us         1  3.2600us  3.2600us  3.2600us  cudaMemset
+                    0.00%  2.8110us         3     937ns     260ns  2.2710us  cudaFree
+                    0.00%  2.3200us         2  1.1600us     100ns  2.2200us  cudaMemcpy
+                    0.00%  2.1100us         3     703ns     170ns  1.7000us  cuDeviceGetCount
+                    0.00%  1.4500us         1  1.4500us  1.4500us  1.4500us  cudaEventSynchronize
+                    0.00%     900ns         1     900ns     900ns     900ns  cudaEventElapsedTime
+                    0.00%     740ns         1     740ns     740ns     740ns  cuDeviceTotalMem
+                    0.00%     660ns         2     330ns     240ns     420ns  cudaEventDestroy
+                    0.00%     530ns         1     530ns     530ns     530ns  cuModuleGetLoadingMode
+                    0.00%     371ns         2     185ns     111ns     260ns  cuDeviceGet
+                    0.00%     290ns         1     290ns     290ns     290ns  cuDeviceGetUuid

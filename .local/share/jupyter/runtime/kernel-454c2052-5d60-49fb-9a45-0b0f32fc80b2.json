@@ -1,0 +1,13 @@
+{
+  "shell_port": 42347,
+  "iopub_port": 42241,
+  "stdin_port": 42741,
+  "control_port": 41837,
+  "hb_port": 60813,
+  "ip": "127.0.0.1",
+  "key": "a7bb77f5-ed88b4b6b84235ba75c79dc9",
+  "transport": "tcp",
+  "signature_scheme": "hmac-sha256",
+  "kernel_name": "bash",
+  "jupyter_session": "/p/home/jusers/marxen1/jusuf/cuDNN Exercise/Console 1"
+}

@@ -1,0 +1,13 @@
+{
+  "shell_port": 33625,
+  "iopub_port": 55699,
+  "stdin_port": 36151,
+  "control_port": 37403,
+  "hb_port": 51155,
+  "ip": "127.0.0.1",
+  "key": "a8e82fb1-01c79a9dc10a295a60fc15ce",
+  "transport": "tcp",
+  "signature_scheme": "hmac-sha256",
+  "kernel_name": "python3",
+  "jupyter_session": "/p/home/jusers/marxen1/jusuf/Part 3 Exercise 4/Batch_Reduction_Exercise.ipynb"
+}
